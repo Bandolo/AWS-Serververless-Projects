@@ -1,15 +1,10 @@
-# Serverless Event-driven E-commerce Microservices
+# Serverless E-commerce App
 
-**UDEMY COURSE WITH DISCOUNTED - Step by Step Development of this Repository -> https://www.udemy.com/course/aws-serverless-microservices-lambda-eventbridge-sqs-apigateway/?couponCode=JUNE22**
 
 ![course2](https://user-images.githubusercontent.com/1147445/158019166-96732203-6642-4242-b1d9-d53ece2e1ed3.png)
 
-This is a Serverless Event-driven E-commerce project for TypeScript development with CDK.
+This is a Serverless Event-driven E-commerce app with CDK as the Infrasructure as Code. 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-### Check Explanation of this Repository on Medium
-* [AWS Event-driven Serverless Microservices using AWS Lambda, API Gateway, EventBridge, SQS, DynamoDB and CDK for IaC](https://mehmetozkaya.medium.com/aws-event-driven-serverless-microservices-using-aws-lambda-api-gateway-eventbridge-sqs-dynamodb-a7f46220b738)
-* [See All Articles - AWS Serverless Microservices with Patterns & Best Practices](https://medium.com/aws-serverless-microservices-with-patterns-best)
 
 ## Whats Including In This Repository
 We will be following the reference architecture above which is a real-world **Serverless E-commerce application** and it includes;
@@ -40,11 +35,6 @@ cdk deploy
 
 4. Wait for provision all microservices into aws cloud. That’s it!
 
-5. You can **launch microservices** as below urls:
-
-* **Product API -> https://xxx.execute-api.ap-southeast-1.amazonaws.com/prod/product**
-* **Basket API -> https://xxx.execute-api.ap-southeast-1.amazonaws.com/prod/basket**
-* **Ordering API -> https://xxx.execute-api.ap-southeast-1.amazonaws.com/prod/order**
 
 ## Useful commands
 
@@ -54,9 +44,3 @@ cdk deploy
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
-
-## Authors
-
-* **Mehmet Ozkaya** - *Initial work* - [mehmetozkaya](https://github.com/mehmetozkaya)
-
-See also the list of [contributors](https://github.com/aspnetrun/run-core/contributors) who participated in this project. Check also [gihtub page of repository.](https://aspnetrun.github.io/run-aspnetcore-angular-realworld/)
